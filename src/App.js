@@ -8,14 +8,23 @@ import {
   
 } from "react-router-dom";
 import Home from './Component/Home/Home';
-
+import 'react-calendar/dist/Calendar.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import Appointment from './Component/MainAppoint/Appointment/Appointment';
 function App() {
   return (
     <Router>
-      <Home/>
+      
     <Switch>
           
           <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/appointment">
+           <Appointment/>
+          </Route>
+         
+          <Route path="*">
             <Home />
           </Route>
           

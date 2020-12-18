@@ -3,6 +3,7 @@ import Header from '../Head/Header';
 import Footer from './Footer/Footer';
 import ChildImg from './Services/ChildImg';
 import Doctor from './Services/Doctor';
+import FormField from './Services/FormField';
 import Services from './Services/Services';
 import Testimonial from './Services/Testimonial/Testimonial';
 
@@ -14,7 +15,9 @@ const Home = () => {
             <ChildImg/>
             <Doctor/>
             <Testimonial/>
+            <FormField/>
             <Footer/>
+            
         </div>
     );
 };
